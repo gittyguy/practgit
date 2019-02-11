@@ -1,9 +1,7 @@
-<<<<<<< HEAD
+change in work5
 hotfix change made 
-=======
 2nd change made in new_idea
 change made in new idea
->>>>>>> work4_newidea
 change made in work3
 change made in work2
 change in work1
