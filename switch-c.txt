@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 hotfix change made 
+=======
+2nd change made in new_idea
+>>>>>>> work4_newidea
 change made in another branch
 change made in work3
 change made in work2
