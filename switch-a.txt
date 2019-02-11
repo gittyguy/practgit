@@ -1,4 +1,6 @@
 change workB
+change workA
+change pre-workA
 change in work5
 hotfix change made 
 2nd change made in new_idea
