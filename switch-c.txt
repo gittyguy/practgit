@@ -1,0 +1,21 @@
+hostname switch-b
+enable secret Test
+username testusr privilege 15 secret Test
+interface Vlan30
+ ip address 192.168.30.10 255.255.255.0
+ no ip redirects
+ no ip proxy-arp
+ load-interval 30
+ip default-gateway 192.168.30.1
+line con 0
+ exec-timeout 15 0
+ logging synchronous
+ login authentication CONSOLE
+ transport output none
+line vty 0 4
+ exec-timeout 15 0
+ logging synchronous
+ login authentication TEMP
+ transport preferred ssh
+ transport input ssh
+ transport output ssh
